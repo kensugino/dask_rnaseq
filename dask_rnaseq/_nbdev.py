@@ -2,9 +2,53 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"practice": "00_core.ipynb"}
+index = {"FileInFileOut": "00_core.ipynb",
+         "clean_ramdisk_local": "00_core.ipynb",
+         "clean_ramdisk_global": "00_core.ipynb",
+         "merge_params": "00_core.ipynb",
+         "write_aggregated_info": "00_core.ipynb",
+         "hdict_get": "01_hdict.ipynb",
+         "hdict_set": "01_hdict.ipynb",
+         "hdict_keys": "01_hdict.ipynb",
+         "hdict_flatten": "01_hdict.ipynb",
+         "hdict_fromflat": "01_hdict.ipynb",
+         "hdict_subset": "01_hdict.ipynb",
+         "hdict_leaves": "01_hdict.ipynb",
+         "hdict_overridden": "01_hdict.ipynb",
+         "ptoml": "01_hdict.ipynb",
+         "HBox": "01_hdict.ipynb",
+         "seqs": "02_seqs.ipynb",
+         "mkdirs": "03_utils.ipynb",
+         "make_params": "03_utils.ipynb",
+         "get_username": "03_utils.ipynb",
+         "get_hostname": "03_utils.ipynb",
+         "deletefiles": "03_utils.ipynb",
+         "subprocesscall": "03_utils.ipynb",
+         "remote_remove_files": "03_utils.ipynb",
+         "sftp_mkdirs": "03_utils.ipynb",
+         "sftp_put": "03_utils.ipynb",
+         "remote_put_files": "03_utils.ipynb",
+         "FASTQP": "03_utils.ipynb",
+         "FASTQP_buffered": "03_utils.ipynb",
+         "FASTQP_readall": "03_utils.ipynb",
+         "revcomp": "03_utils.ipynb",
+         "comp": "03_utils.ipynb",
+         "detect_overlap": "03_utils.ipynb",
+         "CDIC": "03_utils.ipynb",
+         "CountReads": "04_builtins.ipynb",
+         "Flexbar": "04_builtins.ipynb",
+         "Dart": "04_builtins.ipynb",
+         "dart_scatter_index": "04_builtins.ipynb",
+         "FeatureCounts": "04_builtins.ipynb",
+         "SS3CountTags": "04_builtins.ipynb",
+         "SS3RemoveTags": "04_builtins.ipynb"}
 
-modules = ["core.py"]
+modules = ["__init__.py",
+           "core.py",
+           "hdict.py",
+           "seqs.py",
+           "utils.py",
+           "builtins.py"]
 
 doc_url = "https://kensugino.github.io/dask_rnaseq/"
 
